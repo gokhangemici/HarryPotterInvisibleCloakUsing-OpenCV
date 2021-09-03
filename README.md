@@ -36,15 +36,19 @@
 - VALUE: Value represents the brightness of the color.
 
 
+ 
+ ![alt text](resimler/frame_mask.png)
+* Here we can see in the frame wherever the green color is detected the mask shows that as white. The rest of the region is black
+
+## OpenCV Invisible Cloak Output
+![alt text](resimler/invisible-cloak-output.gif)
+
 ## Used Technologies in this project:
 - Python – 3.x (we used Python 3.7.10 in this project)
 - Numpy – 1.19.2
 - OpenCV – 4.5
 * To install opencv, run the below command. Numpy will be automatically installed.
-* `pip install opencv-python` 
- ![alt text](resimler/frame_mask.png)
-* Here we can see in the frame wherever the green color is detected the mask shows that as white. The rest of the region is black
+* `pip install opencv-python`
 
-
-
-
+## Summary:
+In this machine learning project, we have created Invisible Cloak using OpenCV. We implemented color detection and segmentation technique. In this opencv project, we learned about morphological operations, masking, and other image processing concepts.
