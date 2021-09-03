@@ -3,7 +3,7 @@
 
 ## About Invisible Cloak Project
 * We will create the invisible cloak using an image processing technique called Color detection and segmentation. In order to make this project, you’ll need a single-color cloth. * The cloth should not contain any other color visible. Here we are using a green cloth to develop this python project.
-* ![alt text](https://github.com/gokhangemici/HarryPotterInvisibleCloakUsing-OpenCV/blob/e5392084c93ef2e5be09ce104b60de93305f71c4/invisible-cloak.gif)
+ ![alt text](https://github.com/gokhangemici/HarryPotterInvisibleCloakUsing-OpenCV/blob/e5392084c93ef2e5be09ce104b60de93305f71c4/invisible-cloak.gif)
 ## Why single-color cloth?
 
 - Because we are using color detection and segmentation techniques. If any other color is visible in our cloak then we have to process the image frame for that color also.
@@ -28,12 +28,12 @@
 5. Combine masked frames together.
 6. Removing unnecessary noise from masks.
 
+
 ### Why HSV?
 - HSV stands for HUE, SATURATION, and VALUE (or brightness). It is a cylindrical color space.
 - HUE: The hues are modeled as an angular dimension which encodes color information.
 - SATURATION: Saturation encodes intensity of color.
 - VALUE: Value represents the brightness of the color.
-
 
 
 ## Used Technologies in this project:
@@ -42,6 +42,9 @@
 - OpenCV – 4.5
 * To install opencv, run the below command. Numpy will be automatically installed.
 * `pip install opencv-python` 
+ ![alt text](resimler/frame_mask.png)
+* Here we can see in the frame wherever the green color is detected the mask shows that as white. The rest of the region is black
+
 
 
 
